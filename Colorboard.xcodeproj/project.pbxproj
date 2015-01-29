@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C468DBC1A786602003B3AD2 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C468DBB1A786602003B3AD2 /* Colorboard.storyboard */; };
+		9C5521271A79CE0B00F14213 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5521261A79CE0B00F14213 /* ColorViewController.m */; };
+		9C55212A1A79D4CD00F14213 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5521291A79D4CD00F14213 /* PaletteViewController.m */; };
+		9C55212D1A79D60D00F14213 /* ColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C55212C1A79D60D00F14213 /* ColorDescription.m */; };
 		9C7901B51A71C88300707E82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7901B41A71C88300707E82 /* main.m */; };
 		9C7901B81A71C88300707E82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7901B71A71C88300707E82 /* AppDelegate.m */; };
 		9C7901C01A71C88300707E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7901BF1A71C88300707E82 /* Images.xcassets */; };
@@ -25,6 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C468DBB1A786602003B3AD2 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
+		9C5521251A79CE0B00F14213 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		9C5521261A79CE0B00F14213 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		9C5521281A79D4CD00F14213 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		9C5521291A79D4CD00F14213 /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		9C55212B1A79D60D00F14213 /* ColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDescription.h; sourceTree = "<group>"; };
+		9C55212C1A79D60D00F14213 /* ColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDescription.m; sourceTree = "<group>"; };
 		9C7901AF1A71C88300707E82 /* Colorboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7901B31A71C88300707E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7901B41A71C88300707E82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,8 +89,15 @@
 			children = (
 				9C7901B61A71C88300707E82 /* AppDelegate.h */,
 				9C7901B71A71C88300707E82 /* AppDelegate.m */,
+				9C468DBB1A786602003B3AD2 /* Colorboard.storyboard */,
+				9C55212B1A79D60D00F14213 /* ColorDescription.h */,
+				9C55212C1A79D60D00F14213 /* ColorDescription.m */,
+				9C5521251A79CE0B00F14213 /* ColorViewController.h */,
+				9C5521261A79CE0B00F14213 /* ColorViewController.m */,
 				9C7901BF1A71C88300707E82 /* Images.xcassets */,
 				9C7901C11A71C88300707E82 /* LaunchScreen.xib */,
+				9C5521281A79D4CD00F14213 /* PaletteViewController.h */,
+				9C5521291A79D4CD00F14213 /* PaletteViewController.m */,
 				9C7901B21A71C88300707E82 /* Supporting Files */,
 			);
 			path = Colorboard;
@@ -191,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C468DBC1A786602003B3AD2 /* Colorboard.storyboard in Resources */,
 				9C7901C31A71C88300707E82 /* LaunchScreen.xib in Resources */,
 				9C7901C01A71C88300707E82 /* Images.xcassets in Resources */,
 			);
@@ -210,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C55212A1A79D4CD00F14213 /* PaletteViewController.m in Sources */,
 				9C7901B81A71C88300707E82 /* AppDelegate.m in Sources */,
+				9C55212D1A79D60D00F14213 /* ColorDescription.m in Sources */,
 				9C7901B51A71C88300707E82 /* main.m in Sources */,
+				9C5521271A79CE0B00F14213 /* ColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +420,7 @@
 				9C7901D41A71C88300707E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C7901D51A71C88300707E82 /* Build configuration list for PBXNativeTarget "ColorboardTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +429,7 @@
 				9C7901D71A71C88300707E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
